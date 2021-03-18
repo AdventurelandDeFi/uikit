@@ -1538,10 +1538,10 @@ var mediaQueries$1 = {
 };
 var shadows = {
     level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
-    active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
+    active: "0px 0px 0px 1px #74B7AC, 0px 0px 4px 8px rgba(116, 183, 172, 0.4)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
-    warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-    focus: "0px 0px 0px 1px #7645D9, 0px 0px 0px 4px rgba(118, 69, 217, 0.6)",
+    warning: "0px 0px 0px 1px #E8B4B8, 0px 0px 0px 4px rgba(232, 180, 184, 0.2)",
+    focus: "0px 0px 0px 1px #d5e9e6, 0px 0px 0px 4px rgba(213, 233, 230, 0.8)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
@@ -1758,7 +1758,7 @@ var Modal = function (_a) {
 };
 var templateObject_1$g, templateObject_2$6, templateObject_3$3;
 
-var Overlay = styled__default['default'].div.attrs({ role: "presentation" })(templateObject_1$f || (templateObject_1$f = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
+var Overlay = styled__default['default'].div.attrs({ role: "presentation" })(templateObject_1$f || (templateObject_1$f = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #3f4759;\n  transition: opacity 0.2s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #3f4759;\n  transition: opacity 0.2s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
     var show = _a.show;
     return (show ? 0.6 : 0);
 }, function (_a) {
@@ -2775,22 +2775,22 @@ var ResetCSS = styled.createGlobalStyle(templateObject_1 || (templateObject_1 = 
 var templateObject_1;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#aa8929",
-    primaryBright: "#aa8929",
-    primaryDark: "#aa8929",
-    secondary: "#7645D9",
-    success: "#31D0AA",
-    warning: "#FFB237",
+    failure: "#B24A3B",
+    primary: "#74B7AC",
+    primaryBright: "#56B8B7D9",
+    primaryDark: "#429E9D",
+    secondary: "#988686",
+    success: "#74B7AC",
+    warning: "#E8B4B8",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#D1D0D0", backgroundDisabled: "#a7a6a6", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#EBEAE8", tertiary: "#EFF4F5", text: "#67595E", textDisabled: "#BDC2C4", textSubtle: "#988686", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #DFD6D1 0%, #96D3D3 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#1F232C", backgroundDisabled: "#353841", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#353841", primaryDark: "#222222", tertiary: "#3f4759", text: "#EBEAE8", textDisabled: "#666171", textSubtle: "#EBEAE8", borderColor: "#524B63", card: "#353841", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #988686 0%, #96D3D3 100%)",
     } });
 
 var light$6 = {
@@ -2845,8 +2845,8 @@ var light$5 = (_a = {},
     },
     _a[DANGER] = {
         background: lightColors.failure,
-        backgroundActive: "#D43285",
-        backgroundHover: "#FF65B8",
+        backgroundActive: lightColors.failure + "D9",
+        backgroundHover: lightColors.failure + "B3",
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "none",
