@@ -20,12 +20,17 @@ export const links = [
   },
   {
     label: "Farms",
-    icon: "FarmIcon",
+    icon: "PickaxeIcon",
     href: "/farms",
   },
   {
     label: "Pools",
     icon: "PoolIcon",
+    href: "/syrup",
+  },
+  {
+    label: "Lore",
+    icon: "ScrollIcon",
     href: "/syrup",
   },
   {
@@ -99,11 +104,11 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/AdventruelandDeFi/",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://docs.adventureland.finance/",
       },
       {
         label: "Blog",
