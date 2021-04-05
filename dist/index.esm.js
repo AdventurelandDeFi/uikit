@@ -65,10 +65,10 @@ var rotate$1 = keyframes(templateObject_1$K || (templateObject_1$K = __makeTempl
 var spinStyle = css(templateObject_2$f || (templateObject_2$f = __makeTemplateObject(["\n  animation: ", " 2s linear infinite;\n"], ["\n  animation: ", " 2s linear infinite;\n"])), rotate$1);
 var Svg = styled.svg(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  ", "\n  ", "\n  flex-shrink: 0;\n\n  ", "\n  ", "\n"], ["\n  ", "\n  ", "\n  flex-shrink: 0;\n\n  ", "\n  ", "\n"])), function (_a) {
     var theme = _a.theme, color = _a.color, noFill = _a.noFill;
-    return !noFill ? "fill: " + getThemeValue("colors." + color, color)(theme) + ";" : '';
+    return (!noFill ? "fill: " + getThemeValue("colors." + color, color)(theme) + ";" : "");
 }, function (_a) {
     var theme = _a.theme, color = _a.color, useStroke = _a.useStroke;
-    return useStroke ? "stroke: " + getThemeValue("colors." + color, color)(theme) + ";" : '';
+    return (useStroke ? "stroke: " + getThemeValue("colors." + color, color)(theme) + ";" : "");
 }, function (_a) {
     var spin = _a.spin;
     return spin && spinStyle;
@@ -2209,6 +2209,11 @@ var socials = [
     //     // },
     //   ],
     // },
+    {
+        label: "Telegram",
+        icon: "TelegramIcon",
+        href: "https://t.me/adventurelandfinance",
+    },
     {
         label: "Twitter",
         icon: "TwitterIcon",

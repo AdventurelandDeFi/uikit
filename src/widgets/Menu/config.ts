@@ -178,6 +178,11 @@ export const socials = [
   //   ],
   // },
   {
+    label: "Telegram",
+    icon: "TelegramIcon",
+    href: "https://t.me/adventurelandfinance",
+  },
+  {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/AdventurelandF1",
