@@ -1,11 +1,11 @@
 import React, { cloneElement, Children, ReactElement } from "react";
 import StyledButtonMenu from "./StyledButtonMenu";
-import { sizes, variants } from "../Button/types";
+import { scales, variants } from "../Button/types";
 import { ButtonMenuProps, ButtonMenuItemProps } from "./types";
 
 const ButtonMenu: React.FC<ButtonMenuProps> = ({
   activeIndex = 0,
-  size = sizes.MD,
+  size = scales.MD,
   variant = variants.PRIMARY,
   onClick,
   children,
