@@ -20,6 +20,7 @@ export { default as AuditIcon } from "./Audit";
 export { default as GooseIcon } from "./Goose";
 export { default as LayerIcon } from "./Layer";
 export { default as RoadmapIcon } from "./Roadmap";
+export { default as QuestsIcon } from "./Quests";
 
 export { default as ScrollIcon } from "./Scroll";
 export { default as PickaxeIcon } from "./Pickaxe";

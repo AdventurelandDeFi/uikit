@@ -19,13 +19,18 @@ export const links = [
     ],
   },
   {
-    label: "Farms",
+    label: "Mines",
     icon: "PickaxeIcon",
     href: "/farms",
   },
   {
     label: "Pools",
     icon: "PoolIcon",
+    href: "/syrup",
+  },
+  {
+    label: "Quests",
+    icon: "QuestsIcon",
     href: "/syrup",
   },
   {
