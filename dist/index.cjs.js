@@ -422,7 +422,7 @@ var Icon$I = function (props) {
 
 var Icon$H = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/adventureland/logo.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/adventureland/token-pp.png" })));
 };
 
 var Icon$G = function (props) {
