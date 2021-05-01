@@ -45,7 +45,7 @@ const getButtonVariantProp = (prop: keyof ButtonThemeVariant) => ({
   return theme.button[variant][prop];
 };
 
-const StyledButton = styled.button<ButtonProps>`
+const StyledButton: any = styled.button<ButtonProps>`
   align-items: center;
   background-color: ${getButtonVariantProp("background")};
   border: ${getButtonVariantProp("border")};

@@ -1889,7 +1889,7 @@ var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     // const textColor = isDark ? "#FFFFFF" : "#000000";
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "/images/adventureland/logo-white-text.png" : "/images/adventureland/logo-black-text.png" })));
+        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "/images/adventureland/SideLogo_Dark.png" : "/images/adventureland/SideLogo_Light.png" })));
 };
 
 var Icon$m = function (props) {

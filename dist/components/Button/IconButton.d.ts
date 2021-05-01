@@ -1,13 +1,2 @@
-/// <reference types="react" />
-import { ButtonProps } from "./types";
-declare const IconButton: import("styled-components").StyledComponent<{
-    <E extends import("react").ElementType<any> = "button">(props: ButtonProps<E>): JSX.Element;
-    defaultProps: {
-        isLoading: boolean;
-        external: boolean;
-        variant: "primary";
-        scale: "md";
-        disabled: boolean;
-    };
-}, import("styled-components").DefaultTheme, import("./types").BaseButtonProps & import("./types").AsProps<"button"> & Omit<import("react").DetailedHTMLProps<import("react").ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>, "as">, never>;
+declare const IconButton: any;
 export default IconButton;
