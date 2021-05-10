@@ -125,6 +125,11 @@ export const links = [
 
 export const socials = [
   {
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/KePXbU4TBw",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
